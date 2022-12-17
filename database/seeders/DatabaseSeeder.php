@@ -57,21 +57,21 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Kategori::create([
-            'nama' => 'PT Youme',
-            'slug' => 'pt-youme',
-            'alamat' => 'Cipaku'
+            'nama' => 'Politeknik Negeri Malang',
+            'slug' => 'Politeknik Negeri Malang',
+            'alamat' => 'Jl. Soekarno Hatta No.9, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141'
         ]);
 
         Kategori::create([
-            'nama' => 'Dahana',
-            'slug' => 'dahana',
-            'alamat' => 'Cibogo'
+            'nama' => 'Universitas Brawijaya',
+            'slug' => 'Universitas Brawijaya',
+            'alamat' => 'Jl. Veteran, Ketawanggede, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145'
         ]);
 
         Kategori::create([
-            'nama' => 'Politeknik Negeri Subang',
-            'slug' => 'politeknik-negeri-subang',
-            'alamat' => 'Cibogo'
+            'nama' => 'Universitas Malang',
+            'slug' => 'Universitas Malang',
+            'alamat' => 'Jl. Semarang No.5, Sumbersari, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145'
         ]);
     }
 }
